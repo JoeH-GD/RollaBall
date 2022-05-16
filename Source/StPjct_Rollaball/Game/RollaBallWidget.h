@@ -4,9 +4,7 @@
 #include "Blueprint/UserWidget.h"
 #include "RollaBallWidget.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class STPJCT_ROLLABALL_API URollaBallWidget : public UUserWidget
 {

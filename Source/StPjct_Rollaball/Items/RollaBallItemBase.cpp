@@ -33,7 +33,7 @@ void ARollaBallItemBase::OverlapBegin(UPrimitiveComponent* OverlappedComponent, 
 	}
 }
 
-
+//Fixed it myself :)
 void ARollaBallItemBase::Collected_Implementation()
 {
 	ARollaBallGameModeBase* GameMode = Cast<ARollaBallGameModeBase>(GetWorld()->GetAuthGameMode());
